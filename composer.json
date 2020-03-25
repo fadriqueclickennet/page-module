@@ -1,0 +1,38 @@
+{
+  "name": "fadriqueclickennet/page-module",
+  "description": "Page module for ClickennetCMS. Page management.",
+  "keywords": [
+    "clickennet",
+    "pages"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fadriqueclickennet",
+      "email": "fadriqueclickennet@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "composer/installers": "~1.0",
+    "fadriqueclickennet/tag-module": "master-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.5",
+    "orchestra/testbench": "3.8.*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Page\\": ".",
+      "Modules\\": "Modules/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "master-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
